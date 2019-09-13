@@ -1,5 +1,4 @@
 <html lang="en" class="gr__yellow_chat">
-
 <head>
     <title>Asian Paints</title>
     <meta charset="utf-8">
@@ -48,39 +47,37 @@
         })
     </script>
 </head>
-
+    <style>
+    div {
+        border-radius: 5px;
+        background-color:#fde4e2;
+        padding: 20px;
+    }
+</style>
 <body data-gr-c-s-loaded="true">
-
     <div class="container" id="custom">
-        <h4> Please fill the below details. </h4>
+        <h4 style="color:#666666"> Please fill the below details. </h4>
         <form action="javascript:void(0)" method="POST">
             <div class="form-group">
-
-                <label for="email">Name:</label>
+                <label for="email" style="color:#666666">Name:</label>
                 <input class="form-control" id="name" placeholder="Enter Name" name="name" required>
-
             </div>
             <div class="form-group">
-                <label for="email">Email:</label>
+                <label for="email" style="color:#666666">Email:</label>
                 <input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email"
                     class="form-control" id="email" placeholder="Enter your email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="mobile">Mobile No:</label>
+                <label for="mobile" style="color:#666666">Mobile No:</label>
                 <input type="tel" class="form-control" pattern="[6-9]{1}[0-9]{9}" id="mobile"
                     placeholder="Enter your mobile number" name="mobile" required>
             </div>
-            <button type="submit" id="submit" class="btn btn-default">Submit</button>
+            <button type="submit" id="submit" style="color:#666666" class="btn btn-default">Submit</button>
         </form>
         <!-- var input = document.getElementById('username'); -->
-
     </div>
     <center><strong>
             <ul id="add"></ul>
         </strong></center>
-
-
-
 </body>
-
 </html>
